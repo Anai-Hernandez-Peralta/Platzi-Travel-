@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Card {
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
+}
+
+.Card1 {
+    @apply w-full h-3/5 rounded-t-lg bg-cover
+}
+
+.Card2 {
+    @apply w-full h-2/5 rounded-b-lg px-4 pt-4
+}
+
+.Title1 {
+    @apply text-2xl text-primary font-semibold mt-2 
+}
+
+.CardTitle {
+    @apply text-2xl px-8 pt-8 pb-2 font-semibold text-white
+}
+
+.RentaCard {
+    @apply w-full h-96 bg-cover rounded-xl  
+}
+
+.RentaDescriptionCard {
+    @apply text-sm pl-8 mr-24
+}

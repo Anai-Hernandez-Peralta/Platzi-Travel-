@@ -4,14 +4,6 @@ module.exports = {
     "./public/**/*.{html,js}",
   ],
   theme: {
-    fontFamily: { 
-      Montserrat: ["Montserrat", "sans-serif"],
-    },
-    colors: {
-      'primary':"#CC2D4A",
-      'secondary':"#8FA206",
-      'terciary':"#61AEC9",
-    },
     extend: {
       backgroundImage: {
         'sanFrancisco': "url('../img/sanFrancisco.jpg')",
@@ -29,7 +21,15 @@ module.exports = {
 			  'chicago': "url('../img/chicago.jpg')",
 			  'europe': "url('../img/europe.jpg')",
 			  'iceland': "url('../img/iceland.jpg')",
-      }
+      },
+      colors: {
+        'primary':"#CC2D4A",
+        'secondary':"#8FA206",
+        'terciary':"#61AEC9",
+      },
+      fontFamily: { 
+        Montserrat: ["Montserrat", "sans-serif"],
+      },
     }
   },
   plugins: [],
