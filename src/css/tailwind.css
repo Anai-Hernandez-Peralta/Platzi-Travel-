@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .Card {
-    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl snap-center
 }
 
 .Card1 {
@@ -23,9 +23,13 @@
 }
 
 .RentaCard {
-    @apply w-full h-96 bg-cover rounded-xl  
+    @apply w-full h-96 bg-cover rounded-xl hover:scale-105
 }
 
 .RentaDescriptionCard {
     @apply text-sm pl-8 mr-24
+}
+
+.TagBarIcons {
+    @apply fill-current text-blue-300 hover:scale-105
 }
