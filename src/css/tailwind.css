@@ -33,3 +33,11 @@
 .TagBarIcons {
     @apply fill-current text-blue-300 hover:scale-105
 }
+
+.scrollbar-hide-x::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide-y::-webkit-scrollbar {
+    display: none;
+  }
