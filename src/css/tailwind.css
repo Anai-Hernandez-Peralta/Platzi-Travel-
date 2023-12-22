@@ -23,7 +23,7 @@
 }
 
 .RentaCard {
-    @apply w-full h-96 bg-cover rounded-xl hover:scale-105
+    @apply w-full h-96 bg-cover rounded-xl
 }
 
 .RentaDescriptionCard {
@@ -40,4 +40,4 @@
 
 .scrollbar-hide-y::-webkit-scrollbar {
     display: none;
-  }
+}

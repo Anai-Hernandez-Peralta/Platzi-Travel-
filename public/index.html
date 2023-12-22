@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body class="font-Montserrat">
-    <nav></nav>
+    <nav>
+        
+    </nav>
     <section class="w-full h-auto">
         <div id="home">
             <div class="w-full h-3/4">
@@ -28,7 +30,7 @@
         </div>
         <div class="p-10 snap-x" id="recomendados">
             <p class="Title1">Recomendados</p>
-            <div class="w-auto h-80 items-center mt-6 overflow-x-auto overscroll-x-contain flex gap-4 scrollbar-hide-x">
+            <div class="w-auto h-80 items-center mt-6 overflow-x-auto overscroll-x-contain flex gap-6 scrollbar-hide-x">
                 <div class="Card">
                     <div class="Card1 bg-norway"></div>
                     <div class="Card2 bg-secondary">
@@ -81,21 +83,21 @@
             </div>
         </div>
         <div class="px-10 min-h-full w-full" id="rentas_destacadas">
-            <p class="Title1">Rentas Destacadas</p>
-            <div class="w-full min-h-full flex flex-col space-y-6 items-center justify-center py-8">
-                <div class="RentaCard bg-chicago hover:rotate-1">
+            <p class="Title1 md:mb-8">Rentas Destacadas</p>
+            <div class="w-full min-h-full flex flex-col space-y-6 items-center justify-center py-8 md:grid md:grid-cols-pcols md:grid-rows-prows md:py-0 md:space-y-0 md:items-start">
+                <div class="RentaCard bg-chicago md:h-[620px] md:min-w-[725px] md:max-w-[1220px] md:col-start-1 md:col-end-13 md:row-start-1 md:row-end-9 md:mb-[20px]">
                     <p class="CardTitle">Chicago</p>
                     <p class="RentaDescriptionCard">2 habitaciones, baño y cocina.</p>
                 </div>
-                <div class="RentaCard bg-LA hover:-rotate-1">
+                <div class="RentaCard bg-LA md:w-[370px] md:max-w-[500px] lg:w-[420px] xl:w-[500px] md:h-[800px] md:col-start-1 md:col-end-6 md:row-start-9 md:row-end-19 md:mr-[20px]">
                     <p class="CardTitle">Los Angeles</p>
                     <p class="RentaDescriptionCard text-white font-bold">4 habitaciones, 3 baños, cocina y piscina privada.</p>
                 </div>
-                <div class="RentaCard bg-miami hover:rotate-1">
+                <div class="RentaCard bg-miami md:w-[335px] lg:w-[490px] xl:w-[680px] md:h-[400px] md:col-start-6 md:col-end-13 md:row-start-9 md:row-end-15 md:justify-self-end">
                     <p class="CardTitle">Miami</p>
                     <p class="RentaDescriptionCard">3 habitaciones, 2 baños, cocina y una asombrosa vista al mar.</p>
                 </div>
-                <div class="RentaCard bg-bali hover:-rotate-1">
+                <div class="RentaCard bg-bali md:w-[335px] lg:w-[490px] xl:w-[680px] md:h-[380px] md:col-start-6 md:col-end-13 md:row-start-14 md:row-end-19 md:place-self-end">
                     <p class="CardTitle">Bali</p>
                     <p class="RentaDescriptionCard text-white font-bold">2 habitaciones, 2 baños, cocina y piscina privada</p>
                 </div>

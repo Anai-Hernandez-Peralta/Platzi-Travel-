@@ -30,6 +30,21 @@ module.exports = {
       fontFamily: { 
         Montserrat: ["Montserrat", "sans-serif"],
       },
+      gridTemplateColumns: {
+        'pcols': 'repeat(auto-fill, minmax(9px, 100px))'
+      },
+      gridTemplateRows: {
+        'prows': 'repeat(18 ,minmax(80px, 80px))'
+      },
+      gridRowStart: {
+        '9': '9',
+        '14': '14'
+      },
+      gridRowEnd: {
+        '9': '9',
+        '19': '19',
+        '15': '15'
+      }
     }
   },
   plugins: [],
