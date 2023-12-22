@@ -3,19 +3,31 @@
 @tailwind utilities;
 
 .Card {
-    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl snap-center
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl snap-center cursor-pointer
 }
 
 .Card1 {
     @apply w-full h-3/5 rounded-t-lg bg-cover
 }
 
-.Card2 {
-    @apply w-full h-2/5 rounded-b-lg px-4 pt-4
+.Card2White {
+    @apply w-full h-2/5 rounded-b-lg px-4 pt-4 bg-white text-terciary dark:text-white dark:bg-gray-800
+}
+
+.Card2Green {
+    @apply w-full h-2/5 rounded-b-lg px-4 pt-4 bg-secondary text-white dark:bg-gray-700
+}
+
+.CardTitle1 {
+    @apply font-bold text-xl
+}
+
+.CardTitle2 {
+    @apply font-medium
 }
 
 .Title1 {
-    @apply text-2xl text-primary font-semibold mt-2 
+    @apply text-2xl text-primary font-semibold mt-2 mb-5  2xl:ml-[400px] 2xl:text-4xl dark:text-white
 }
 
 .CardTitle {
@@ -23,11 +35,19 @@
 }
 
 .RentaCard {
-    @apply w-full h-96 bg-cover rounded-xl
+    @apply w-full h-96 bg-cover rounded-xl hover:scale-105 cursor-pointer
 }
 
 .RentaDescriptionCard {
     @apply text-sm pl-8 mr-24
+}
+
+.FaqsTitle1 {
+    @apply text-xl font-medium text-primary dark:text-white dark:font-bold pb-2
+}
+
+.FaqsTitle2 {
+    @apply text-sm pb-4 dark:text-white
 }
 
 .TagBarIcons {
